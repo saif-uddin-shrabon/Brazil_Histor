@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".Brazilian_stadium">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00815C"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60ssp"
+        android:background="#EFC800"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/backbtn2"
+            android:background="#EFC800"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/arraw"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Histor"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_35ssp"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/_50sdp"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/brazilstadium"
+                android:layout_gravity="center"
+
+                />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-127dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginStart="@dimen/_10ssp"
+                android:layout_marginEnd="@dimen/_10ssp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10ssp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The history of Brazilian stadiums is intertwined with the country's love for football. As the sport grew in popularity throughout the 20th century, so too did the demand for larger and more modern stadiums to accommodate fans. \n \n
+The first major stadium in Brazil was the Maracanã in Rio de Janeiro, which was built in the 1940s to host the 1950 World Cup. The stadium was a marvel of engineering, with a capacity of over 200,000 spectators. It quickly became a symbol of Brazilian football and a source of national pride.\n \n
+Over the next several decades, new stadiums were built across Brazil, many of them modeled after the Maracanã. Some of the most notable include the Morumbi in São Paulo, the Mineirão in Belo Horizonte, and the Beira-Rio in Porto Alegre.
+Iame."
+                android:textSize="@dimen/_16ssp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>
+
+</LinearLayout>
