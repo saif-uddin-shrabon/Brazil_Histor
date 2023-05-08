@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.hist0r.mxktz'
+    namespace 'com.hist0r.histor'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.hist0r.mxktz"
+        applicationId "com.hist0r.histor"
         minSdk 23
         targetSdk 33
         versionCode 1
@@ -53,5 +53,6 @@ dependencies {
     implementation 'com.intuit.ssp:ssp-android:1.1.0'
 
     implementation 'androidx.databinding:databinding-runtime:4.3.0'
+    implementation 'com.github.AtifSayings:Animatoo:1.0.1'
 
 }

@@ -7,24 +7,30 @@
     android:background="@drawable/histo"
     android:orientation="vertical"
     tools:context=".Histor">
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_60ssp"
+        android:layout_height="73dp"
         android:background="#EFC800"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/interblack"
             android:text="Histor"
+            android:textStyle="italic"
             android:textColor="@color/black"
-            android:textSize="@dimen/_35ssp"
-            android:layout_gravity="center"/>
+            android:textSize="@dimen/_24ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -32,35 +38,41 @@
         >
 
 
-            <Button
-                android:id="@+id/bf"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_30sdp"
-                android:text="Brazilian football"
-                android:background="#EFC800"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="26dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_250sdp"
-                android:layout_marginStart="25dp"
-                android:layout_marginEnd="25dp"/>
+        <Button
+            android:id="@+id/bf"
+            android:layout_width="@dimen/_264sdp"
+            android:layout_height="@dimen/_58sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="288dp"
+            android:background="#EFC800"
+            android:text="Brazilian football"
+            android:textColor="@color/black"
+            android:fontFamily="@font/interblack"
+            android:textSize="26dp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
-                android:layout_gravity="center"
-                android:id="@+id/bs"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_30sdp"
-                android:text="Brazilian stadium"
-                android:background="#EFC800"
-                android:layout_marginTop="40dp"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="26dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginEnd="25dp"/>
+        <Button
+            android:id="@+id/bs"
+            android:layout_width="@dimen/_264sdp"
+            android:layout_height="@dimen/_58sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="#EFC800"
+            android:text="Brazilian stadium"
+            android:fontFamily="@font/interblack"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bf" />
 
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>

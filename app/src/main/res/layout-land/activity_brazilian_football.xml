@@ -34,16 +34,19 @@ tools:context=".Brazilian_Football">
             app:layout_constraintVertical_bias="0.517" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="191dp"
+            android:layout_height="54dp"
+            android:fontFamily="@font/interblack"
             android:gravity="center"
             android:text="Histor"
             android:textColor="@color/black"
-            android:textSize="@dimen/_35ssp"
+            android:textSize="@dimen/_24ssp"
+            android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.333" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -76,7 +79,10 @@ tools:context=".Brazilian_Football">
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:textSize="@dimen/_14sdp"
+                        android:textSize="@dimen/_16sdp"
+                        android:fontFamily="@font/interregular"
+                        android:lineSpacingExtra="3sp"
+                        android:translationY="-1.32sp"
                         android:text="In the early 20th century, football had already become a popular sport in Brazil. However, it was still primarily played by the elites and was not yet accessible to the general public.\n \n
 In 1914, the first national football tournament was held in Brazil, with teams from Rio de Janeiro and São Paulo competing. This sparked a newfound interest in the sport, and football quickly became a beloved pastime for Brazilians of all social classes.
 \n \nThroughout the 1920s and 1930s, Brazilian football experienced a period of growth and development. The country's first professional league, the Campeonato Carioca, was established in 1923, followed by the Campeonato Paulista in 1933.

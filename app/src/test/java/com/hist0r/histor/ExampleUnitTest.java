@@ -1,4 +1,4 @@
-package com.hist0r.mxktz;
+package com.hist0r.histor;
 
 import org.junit.Test;
 

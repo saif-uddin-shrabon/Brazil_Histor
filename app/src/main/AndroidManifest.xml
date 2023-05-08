@@ -19,9 +19,6 @@
             android:name=".Brazilian_Football"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".Histor"
             android:exported="true">
             <intent-filter>

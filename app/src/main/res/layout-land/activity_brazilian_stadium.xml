@@ -33,12 +33,14 @@ tools:context=".Brazilian_stadium">
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:layout_width="110dp"
-            android:layout_height="65dp"
+            android:layout_width="177dp"
+            android:layout_height="59dp"
+            android:fontFamily="@font/interblack"
             android:gravity="center"
             android:text="Histor"
             android:textColor="@color/black"
-            android:textSize="@dimen/_35ssp"
+            android:textStyle="italic"
+            android:textSize="@dimen/_24ssp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.499"
@@ -86,6 +88,9 @@ tools:context=".Brazilian_stadium">
                 android:layout_marginBottom="@dimen/_10ssp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/interregular"
+                android:lineSpacingExtra="3sp"
+                android:translationY="-1.32sp"
                 android:text="The history of Brazilian stadiums is intertwined with the country's love for football. As the sport grew in popularity throughout the 20th century, so too did the demand for larger and more modern stadiums to accommodate fans. \n \n
 The first major stadium in Brazil was the Maracanã in Rio de Janeiro, which was built in the 1940s to host the 1950 World Cup. The stadium was a marvel of engineering, with a capacity of over 200,000 spectators. It quickly became a symbol of Brazilian football and a source of national pride.\n \n
 Over the next several decades, new stadiums were built across Brazil, many of them modeled after the Maracanã. Some of the most notable include the Morumbi in São Paulo, the Mineirão in Belo Horizonte, and the Beira-Rio in Porto Alegre.

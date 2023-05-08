@@ -15,7 +15,7 @@ tools:context=".Brazilian_stadium">
     >
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_60ssp"
+        android:layout_height="73dp"
         android:background="#EFC800"
         android:orientation="horizontal">
         <ImageButton
@@ -29,14 +29,15 @@ tools:context=".Brazilian_stadium">
             />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="180dp"
             android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:fontFamily="@font/interblack"
+            android:gravity="center"
             android:text="Histor"
             android:textColor="@color/black"
-            android:textSize="@dimen/_35ssp"
-            android:gravity="center"
-            android:layout_marginLeft="@dimen/_50sdp"
-            />
+            android:textSize="@dimen/_24ssp"
+            android:textStyle="italic" />
 
     </LinearLayout>
 
@@ -72,18 +73,20 @@ tools:context=".Brazilian_stadium">
 
 
             <TextView
-                android:layout_marginStart="@dimen/_10ssp"
-                android:layout_marginEnd="@dimen/_10ssp"
-                android:layout_marginTop="@dimen/_10sdp"
-                android:layout_marginBottom="@dimen/_10ssp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10ssp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10ssp"
+                android:layout_marginBottom="@dimen/_10ssp"
+                android:fontFamily="@font/interregular"
+                android:lineSpacingExtra="3sp"
                 android:text="The history of Brazilian stadiums is intertwined with the country's love for football. As the sport grew in popularity throughout the 20th century, so too did the demand for larger and more modern stadiums to accommodate fans. \n \n
 The first major stadium in Brazil was the Maracanã in Rio de Janeiro, which was built in the 1940s to host the 1950 World Cup. The stadium was a marvel of engineering, with a capacity of over 200,000 spectators. It quickly became a symbol of Brazilian football and a source of national pride.\n \n
 Over the next several decades, new stadiums were built across Brazil, many of them modeled after the Maracanã. Some of the most notable include the Morumbi in São Paulo, the Mineirão in Belo Horizonte, and the Beira-Rio in Porto Alegre.
 Iame."
                 android:textSize="@dimen/_16ssp"
-                />
+                android:translationY="-1.32sp" />
 
         </LinearLayout>
     </ScrollView>
