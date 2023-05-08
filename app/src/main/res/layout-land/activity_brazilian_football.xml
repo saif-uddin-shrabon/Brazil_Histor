@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".Brazilian_Football">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00815C"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60ssp"
+        android:background="#EFC800"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="76dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="24dp"
+            android:background="#EFC800"
+            android:src="@drawable/arraw"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.517" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Histor"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_35ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/brazil"
+                android:layout_gravity="center"
+
+                />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="@dimen/_14sdp"
+                        android:text="In the early 20th century, football had already become a popular sport in Brazil. However, it was still primarily played by the elites and was not yet accessible to the general public.\n \n
+In 1914, the first national football tournament was held in Brazil, with teams from Rio de Janeiro and São Paulo competing. This sparked a newfound interest in the sport, and football quickly became a beloved pastime for Brazilians of all social classes.
+\n \nThroughout the 1920s and 1930s, Brazilian football experienced a period of growth and development. The country's first professional league, the Campeonato Carioca, was established in 1923, followed by the Campeonato Paulista in 1933.
+\n \n In the 1950s, Brazil's national team began to gain international recognition, thanks in part to the emergence of legendary players like Pelé, Garrincha, and Zico. The team won its first World Cup in 1958, and would go on to win the tournament five more times over the next several decades.
+\n\nBrazilian football continued to evolve throughout the latter half of the 20th century, with the establishment of new leagues and the introduction of new technologies and training methods. The sport became increasingly commercialized, and many of Brazil's top players went on to become international superstars.
+\n\nDespite the challenges and controversies that have plagued the sport in Brazil over the years, football remains an integral part of the country's national identity. From the local amateur leagues to the grand stages of the World Cup, Brazilian football continues to inspire and captivate fans around the world."
+                        android:layout_margin="30dp"/>
+                </LinearLayout>
+            </ScrollView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+</LinearLayout>
